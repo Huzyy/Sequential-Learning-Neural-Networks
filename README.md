@@ -3,6 +3,7 @@ RNNs are heavily reliant on recent inputs and tend to forget long-term dependenc
 
 LSTMs have great improvements over RNNs in regard to capturing both short-term and long-term dependencies. 
 
+# RNN & LSTM Models
 Both models are trained and evaluated using a dataset of 40,000 Tweets from social media where each model must accurately predict whether a tweet is labelled in one of the following 3 categories: sadness, neutral, happiness.
 
 The database was imbalanced: sadness: 5165 tweets (27.2%)
@@ -23,6 +24,7 @@ the vanishing-gradient issues in RNNs.
 ![Screenshot 2025-05-09 141127](https://github.com/user-attachments/assets/88651731-32ed-48de-ac13-510a36293384)
 
 ![image](https://github.com/user-attachments/assets/91d27fc8-c01f-4898-9122-01498c0ee7a2)
+
 The testing results also show the higher accuracy from the LSTM.
 The simple RNN struggles with long-range dependencies which leads to
 underfitting, and this is clear from the results. The advantages of LSTM with
